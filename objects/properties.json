@@ -1,0 +1,17 @@
+{
+  "qTitle": "NCP Insights Engine(1)",
+  "qLastReloadTime": "2021-04-08T09:45:00.020Z",
+  "qMigrationHash": "98d482c3f964dccf69cbfb9a00e0c048ea6eb221",
+  "qSavedInProductVersion": "12.674.6",
+  "qThumbnail": {
+    "qUrl": "/appcontent/7c8a3387-f442-483b-acff-ede8d839e96c/Insights Engine Logo.png"
+  },
+  "createdDate": "2021-04-08T07:00:22.788Z",
+  "modifiedDate": "2021-04-08T07:00:25.648Z",
+  "published": false,
+  "publishTime": "1753-01-01T00:00:00.000Z",
+  "description": "",
+  "dynamicColor": "hsla(211,18%,43%,1)",
+  "stream": null,
+  "hassectionaccess": false
+}

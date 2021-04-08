@@ -1,0 +1,272 @@
+[
+  {
+    "qInfo": {
+      "qId": "010daeb7-de27-4859-804d-437a41cef468",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "v_Max_Year_LY_SO",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Max({1<[Measure Type]={'Consolidated'} ,Year=P(Year),Quarter=P(Quarter),[Month Year]=P([Month Year]),[Month Num]=P([Month Num]),Month=P(Month)>}Year) -1\n",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "16fb48a9-9834-4a24-89fa-d4690c103a25",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vMaxCalendarDate",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "44561",
+    "qIsScriptCreated": true
+  },
+  {
+    "qInfo": {
+      "qId": "35fca4fa-f73a-4b8b-904c-1bce54bb232b",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTodaysDate",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "4/8/2021",
+    "qIsScriptCreated": true
+  },
+  {
+    "qInfo": {
+      "qId": "395636f7-138d-4b4c-8468-279b491c8e46",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vMinCalendarDate",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "42736",
+    "qIsScriptCreated": true
+  },
+  {
+    "qInfo": {
+      "qId": "40f46192-a849-463a-a9f5-a01848ac7765",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "v_Max_Year_RE",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Max({1<[Measure Type]={'Region'} ,Year=P(Year),Quarter=P(Quarter),[Month Year]=P([Month Year]),[Month Num]=P([Month Num]),Month=P(Month)>}Year)\n",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "4252bae8-b06a-4b9f-94a8-1701330bf138",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "v_Max_Year_LY-1_SO",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Max({1<[Measure Type]={'Consolidated'} ,Year=P(Year),Quarter=P(Quarter),[Month Year]=P([Month Year]),[Month Num]=P([Month Num]),Month=P(Month)>}Year) -2\n",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "4e4d83fb-3eb0-49cd-90d8-79cbf782d7b0",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "v_Max_Month_ID_LY_SO",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Max({1<[Measure Type]={'Consolidated'}  ,Year=P(Year),Quarter=P(Quarter),[Month Year]=P([Month Year]),[Month Num]=P([Month Num]),Month=P(Month)>}[Month ID])-12\n",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "55d0d1a3-c719-42e1-9e24-f0677db01b3b",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "v_Switch_Option_CM_YTD",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "2",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "7c89d884-4db3-495a-b31f-e96313b86c57",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "v_Max_Month_ID_SO",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Max({1<[Measure Type]={'Consolidated'}  ,Year=P(Year),Quarter=P(Quarter),[Month Year]=P([Month Year]),[Month Num]=P([Month Num]),Month=P(Month)>}[Month ID])\n",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "7df75b26-be9a-4f30-af22-7a14d6c36798",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "v_Max_Year_LY",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Max({1<[Measure Type]={'Consolidated'} ,Year=P(Year),Quarter=P(Quarter),[Month Year]=P([Month Year]),[Month Num]=P([Month Num]),Month=P(Month)>}Year) -1\n",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "93d528d1-fe72-42a1-b567-01f313ef7f77",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTodaysDateYear",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "2021",
+    "qIsScriptCreated": true
+  },
+  {
+    "qInfo": {
+      "qId": "a34a3395-cd5e-4391-a46f-23d07457570d",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "v_NAPCO_Brands_Region",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "[SellOut Brand] = \r\n{'Sanita Bambi',\n'Sanita Gipsy',\n'Sanita Charm',\n'Sanita',\n'Classic',\n'Hala',\n'Sanita Bouquet',\n'Sanita Club',\n'Hala Basic',\n'Sanita Magic',\n'Sanita Manashef',\n'Fam',\n'Private',\n'Freshdays',\n'Fresh Days',\n'Sanita Mandy',\n'Sanita Easy Lock',\n'Sanita Easy Tie',\n'Sanita Abou Rabta',\n'Sanita Matwiya'\n}",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "b038dfb3-6b4d-4525-896a-2bc0e1b5f83f",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "v_Max_Year_LY-2_SO",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Max({1<[Measure Type]={'Consolidated'} ,Year=P(Year),Quarter=P(Quarter),[Month Year]=P([Month Year]),[Month Num]=P([Month Num]),Month=P(Month)>}Year) -3\n",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "c5ca234d-d64f-4428-92fc-8ee3e3ce561f",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "v_Switch_Option_Sup_Pharm",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "1",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "ce397f18-6b62-46a9-8f6c-7fac83262fdd",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "v_Max_Month_ID_LY-1_SO",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Max({1<[Measure Type]={'Consolidated'}  ,Year=P(Year),Quarter=P(Quarter),[Month Year]=P([Month Year]),[Month Num]=P([Month Num]),Month=P(Month)>}[Month ID])-24",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "dae46425-0054-47d9-9ad2-5bcaa7fd7093",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "v_Max_Month_ID_RE",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Max({1<[Measure Type]={'Region'}  ,Year=P(Year),Quarter=P(Quarter),[Month Year]=P([Month Year]),[Month Num]=P([Month Num]),Month=P(Month)>}[Month ID])\r\n",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "e0b51604-342f-4c22-85da-171030d5f7e2",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "v_Max_Year_SO",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Max({1<[Measure Type]={'Consolidated'} ,Year=P(Year),Quarter=P(Quarter),[Month Year]=P([Month Year]),[Month Num]=P([Month Num]),Month=P(Month)>}Year)\n",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "f1cb4e8e-3282-4d52-b5df-e2c97994272f",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "v_Max_Month_ID_LY-2_SO",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Max({1<[Measure Type]={'Consolidated'}  ,Year=P(Year),Quarter=P(Quarter),[Month Year]=P([Month Year]),[Month Num]=P([Month Num]),Month=P(Month)>}[Month ID])-36",
+    "tags": []
+  }
+]

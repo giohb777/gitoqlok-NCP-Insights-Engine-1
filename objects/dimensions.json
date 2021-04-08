@@ -1,0 +1,50 @@
+[
+  {
+    "qInfo": {
+      "qId": "CxRTF",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "H",
+      "qFieldDefs": [
+        "=[SellOut Category]",
+        "=[SellOut Account]"
+      ],
+      "qFieldLabels": [],
+      "title": "Category-Account",
+      "coloring": {
+        "changeHash": "0.18825090424913515"
+      }
+    },
+    "qMetaDef": {
+      "title": "Category-Account",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "c1754076-df68-401d-bcfc-6d357c501ce2",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "H",
+      "qFieldDefs": [
+        "=[SellOut Category]",
+        "=[SellOut Product Line]",
+        "=[SellOut Account]"
+      ],
+      "qFieldLabels": [],
+      "title": "Category-Line-Account",
+      "coloring": {
+        "changeHash": "0.1490132268839519",
+        "colorMapRef": "c1754076-df68-401d-bcfc-6d357c501ce2"
+      }
+    },
+    "qMetaDef": {
+      "title": "Category-Line-Account",
+      "description": "",
+      "tags": []
+    }
+  }
+]
